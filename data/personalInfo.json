@@ -1,0 +1,29 @@
+{
+    "name": {
+        "title": "Name",
+        "icon": "fas fa-user-alt",
+        "content": "Mohamedelfatih Seedahmed"
+    },
+    "myBirthday": {
+        "title": "Birthday",
+        "icon": "fas fa-birthday-cake",
+        "content": "10-10-2003" 
+    },
+    "nationality": {
+        "title": "Nationality",
+        "icon": "fas fa-flag",
+        "content": "Sudanese"
+    },
+
+    "residence": {
+        "title": "Residence",
+        "icon": "fas fas fa-map-marker-alt",
+        "content": "United Arabic Emirates"
+    },
+
+    "martialStatus": {
+        "title": "Martial Status",
+        "icon": "fas fa-heart",
+        "content": "Single"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "2WebDesigner": {
+        "title": "Web Design",
+        "icon": "fas fa-graduation-cap",
+        "time": "July-2021" ,
+        "content": "An excellent Figma Web-Desiger taking the idea to a visual design"
+    },
+    "1WebDeveloper": {
+        "title": "Front End Web developer",
+        "icon": "fas fa-graduation-cap",
+        "time": "September-2022",
+        "content": "A very good front-end web developer using HTML, CSS Flex Box, JavaSCript and Bootstrap Framework"
+    },
+
+    "3MobileDeveloper": {
+        "title": "Mobile Developer",
+        "icon": "fas fa-graduation-cap",
+        "time": "January-2023",
+        "content": "A good front-end Mobile developer using React native"
+    }
+}

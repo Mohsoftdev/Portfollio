@@ -1,0 +1,49 @@
+{
+    "skill1":{
+        "title": "HTML",
+        "percent": "95%",
+        "color": "#8913F1"
+    },
+
+    "skill2":{
+        "title": "CSS3",
+        "percent": "90%",
+        "color": "#13D5A3"
+    },
+
+    "skill3":{
+        "title": "JavaScript",
+        "percent": "75%",
+        "color": "#FA05CD"
+    },
+
+    "skill4":{
+        "title": "Bootstrap",
+        "percent": "90%",
+        "color": "#FAF605"
+    },
+
+    "skill5":{
+        "title": "Webpack",
+        "percent": "65%",
+        "color": "#FA9D05"
+    },
+
+    "skill6":{
+        "title": "HUGO",
+        "percent": "75%",
+        "color": "#FA0C05"
+    },
+
+    "skill7":{
+        "title": "SASS",
+        "percent": "80%",
+        "color": "#05FAE7"
+    },
+
+    "skill8":{
+        "title": "BEM",
+        "percent": "45%",
+        "color": "#0518FA"
+    }
+}

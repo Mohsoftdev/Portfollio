@@ -1,0 +1,22 @@
+{{ define "main"}}
+{{ partial "cover" .}}
+<div class="page">
+    <div class="page-container">
+        <div class="row">
+            {{ partial "personal-info" .}}
+            {{ partial "qualifications" .}}
+        </div>
+        <div class="row">
+            {{ partial "skills" .}}
+        </div>
+        <div class="row">
+            {{ partial "my-works" .}}
+        </div>
+        <div class="row">
+            {{ partial "reviews" .}}
+            {{ partial "contact" .}}
+        </div>
+    </div>
+</div>
+{{ partial "footer" . }}
+{{ end }}

@@ -1,0 +1,23 @@
+<div class="card card--half">
+    <h2>Reviews</h2>
+    <div class="slide-container" id="reviews" style="width: 100%; height: 500px; position: relative;">
+        <div class="slides-container__wrapper">
+            {{ range .Site.Data.reviews }}
+            <div class="slides fade" style="height: 100%;">
+                <div class="review-container" style="width: 90%; height: 500px; display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin: auto;">
+                    <p style="color: grey;">{{ .content }}</p>
+                    <h3 style="font-size: 20px; font-weight: bold;">{{ .name }}</h3>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="slides-BTN" style="width: 100%; position: absolute; top: 0; bottom: 0; display: flex; align-items: center; justify-content: space-between;">
+            <span class="next"><i class="fas fa-chevron-left" style="width: auto; font-size: 40px; color: black;"></i></span>
+            <span class="prev"><i class="fas fa-chevron-right" style="width: auto; font-size: 40px; color: black;"></i></span>
+        </div>        
+    </div>
+</div>

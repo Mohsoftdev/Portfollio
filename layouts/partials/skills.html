@@ -1,0 +1,23 @@
+<div class="card card--full">
+    <h2>skills</h2>
+    {{ range $index, $skill := .Site.Data.skills}}
+    <div class="skill">
+        <div class="skill-head">
+            <h3>{{ .title }}</h3>
+            <span class="percent">{{.percent}}</h3>
+        </div>
+        <div class="skill-content">
+            <span class="layer" style="width: 0;
+                                                  background-color: {{ $skill.color }};
+                                                  animation: progressAnimation-{{ $index }} 2s linear forwards;">
+                        </span>
+                        <style>
+                            @keyframes progressAnimation-{{ $index }} {
+                                0% { width: 0; }
+                                100% { width: {{ $skill.percent }}; }
+                            }
+                        </style>
+        </div>
+    </div>
+    {{end}}
+</div>

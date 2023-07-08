@@ -1,0 +1,268 @@
+:root{
+    --grey: #DBDEE1;
+    --dark-grey: #466582;
+    --font: #272D33;
+    --radius: 7px;
+    --light-green: #13CFD5;
+}
+
+body{
+    color: var(--font);
+    font-family: 'Agdasima', sans-serif;
+    background-color: var(--grey);
+}
+
+.page-container{
+    margin: 0;
+    padding: 60px;
+}
+
+.card--full{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card h2{
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 1px solid var(--dark-grey);
+}
+.card{
+    border-radius: var(--radius);
+    /* padding: 20px 30px; */
+    background-color: white;
+    padding: 20px 30px;
+    margin: 10px;
+}
+.card.card--half{
+    width: 48%;
+}
+.row{
+    display: flex;
+    justify-content: space-between !important;
+    margin: auto;
+    width: 100%;
+}
+
+/* cover */
+.cover{
+    /* width: 100%; */
+    background-color: var(--dark-grey);
+    padding: 30px 100px;
+
+}
+
+.cover-container{
+    background-color: white;
+    /* padding: 20px 10px; */
+    display: flex;
+    align-items: center;
+}
+.cover-image{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: var(--radius);
+}
+
+.cover-image img{
+    height: 100%;
+    /* width: 100% !important; */
+    object-fit: cover;
+}
+
+.cover-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cover-info p{
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar span a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--light-green);
+    padding: 10px;
+    height: 30px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: var(--dark-grey);
+}
+/* personal */
+.info-head{
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-head-title{
+    display: flex;
+    align-items: center;
+}
+
+.info-head i{
+    color: var(--light-green);
+    margin-right: 20px;
+}
+
+.info-content p{
+  font-size: 20px;  
+  margin-top: 0px;
+}
+
+
+/* skills */
+.skill{
+    padding: 0 10px;
+    width: 48%;
+    /* border-right: 1px solid #000;
+    border-left: 1px solid #000; */
+}
+.skill-head{
+    /* font-size: 20px;
+    line-height: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skill-head .percent{
+    color: var(--light-green);
+}
+
+.skill-content{
+    height: 15px;
+    width: 100%;
+    position: relative;
+    background-color: var(--gary);
+}
+
+.skill-content .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+/* my-works */
+
+.image-container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.image-container img{
+    object-fit: cover;
+    width: 100% !important;
+    height: 100%;
+}
+
+/* reviews */
+
+.review-title{
+    display: flex;
+    justify-content: center;
+}
+
+/* slides */
+.slide-container{
+    position: relative !important;
+    width: 100%;
+}
+
+.slide-container__wrapper{
+    width: 100%;
+}
+
+/* .slides-BTN{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    width: 100%;
+} */
+
+.slides-BTN>span{
+    padding: 0 20px;
+}
+
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+/* responsive */
+@media (min-width: 950px) {
+    .skill{
+        width: 48%;
+    }
+
+}
+
+
+
+
+/* 
+@media (max-width: 950px) {
+    .card.card--half{
+        width: 100% !important;
+    }
+    .skill{
+        width: 100%;
+    }
+    .cover-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cover-image{
+        margin-right: 0;
+    }
+} */
+
+

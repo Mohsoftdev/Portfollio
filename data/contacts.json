@@ -1,0 +1,25 @@
+{
+    "Aphone":{
+        "title": "Phone",
+        "icon": "fas fa-phone",
+        "content": "00971542990652"
+    },
+
+    "chat":{
+        "title": "Whatsapp",
+        "icon": "fab fa-whatsapp",
+        "content": "00249122120328"
+    },
+
+    "email":{
+        "title": "Email",
+        "icon": "fa fa-envelope",
+        "content": "mohammedshmnda@gmail.com"
+    },
+
+    "linkedIn":{
+        "title": "LinkedIn",
+        "icon": "fab fa-linkedin",
+        "content": "Mohwebdev"
+    }
+}
